@@ -21,7 +21,7 @@ public class RegistrationStepDefinitions {
 
 
         actor.attemptsTo(
-                Open.url("http://127.0.0.1:5500/register.html"),
+                Open.url("http://127.0.0.1:5501/register.html"),
                 Enter.theValue(expectedName).into("//input[@id='name']"),
                 Enter.theValue(expectedLastname).into("//input[@id='last-name']"),
                 Enter.theValue(expectedAge).into("//input[@id='age']"),
